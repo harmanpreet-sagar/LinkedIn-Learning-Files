@@ -9,7 +9,7 @@ int main()
 	/* variable assignments */
   a = 15;
   // Need to write 2.0 as if you write just 2, then the compiler would interpret
-  // that as an integer.
+  // that as an integer and would as a result perform integer division.
   b = a / 2.0; 
   c = b * 4;
 	/* output */
